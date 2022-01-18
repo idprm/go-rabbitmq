@@ -48,6 +48,6 @@ func main() {
 		}
 	}()
 
-	log.Panicf("[*] Waiting for messages. to exit press CTRL+C\n")
+	log.Printf(" [*] Waiting for messages. To exit press CTRL+C")
 	<-forever
 }
